@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9706c610-d609-4450-837e-823a57b861b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ConcurrentHashMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CountMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FutureDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FutureDemo3Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UsingFutureCount.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="8.174389512066626E-68" />
+      <entry key="S2" value="1.7326587357415198E-17" />
+      <entry key="S5" value="2.4004534048848005E-7" />
+      <entry key="S10" value="6.538933060764523E-4" />
+      <entry key="S30" value="0.16644533047723503" />
+      <entry key="S60" value="1.1571721010697407" />
+      <entry key="M2" value="4.785233203458854" />
+      <entry key="M5" value="15.355260510697777" />
+      <entry key="M10" value="24.821847570626147" />
+      <entry key="M15" value="29.754763237878887" />
+      <entry key="M30" value="36.38494807704076" />
+      <entry key="H1" value="40.691556688909436" />
+      <entry key="H2" value="43.197857804724514" />
+      <entry key="H4" value="44.55851910038454" />
+      <entry key="D1" value="45.753816180127714" />
+      <entry key="W1" value="45.96468100644103" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000000000000003" />
+      <entry key="S2" value="1.0003778710416888" />
+      <entry key="S5" value="1.0732981260167143" />
+      <entry key="S10" value="1.4551032548809284" />
+      <entry key="S30" value="2.7974331238509036" />
+      <entry key="S60" value="4.837550894892651" />
+      <entry key="M2" value="10.341639735008048" />
+      <entry key="M5" value="24.821392567284043" />
+      <entry key="M10" value="37.44311308795592" />
+      <entry key="M15" value="43.92555035969506" />
+      <entry key="M30" value="52.41420423983315" />
+      <entry key="H1" value="57.724840200828126" />
+      <entry key="H2" value="60.72668610737058" />
+      <entry key="H4" value="62.32725553319955" />
+      <entry key="D1" value="63.716000694466715" />
+      <entry key="W1" value="63.95929845557239" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.0040440036087553794" />
+      <entry key="MS500" value="0.3321714535241286" />
+      <entry key="S2" value="0.7594169389469881" />
+      <entry key="S5" value="0.9555461601750723" />
+      <entry key="S10" value="1.3547138706412698" />
+      <entry key="S30" value="2.879740498523344" />
+      <entry key="S60" value="5.9185845499699665" />
+      <entry key="M2" value="15.039604854844903" />
+      <entry key="M5" value="40.08282098915573" />
+      <entry key="M10" value="62.19039648178106" />
+      <entry key="M15" value="73.62090956404032" />
+      <entry key="M30" value="88.76303156972037" />
+      <entry key="H1" value="98.39631227272847" />
+      <entry key="H2" value="103.91392692874096" />
+      <entry key="H4" value="106.88031255797213" />
+      <entry key="D1" value="109.46888428328428" />
+      <entry key="W1" value="109.9238456774464" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3LtpgD0OU6L00sqkSmtK4KnqdFH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ConcurrentHashMapExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FutureDemo3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UsingFutureCount.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.FutureDemo3">
+    <configuration name="CountMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountMain" />
+      <module name="DAY-07" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FutureDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FutureDemo3" />
+      <module name="DAY-07" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsingFutureCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UsingFutureCount" />
+      <module name="DAY-07" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FutureDemo3" />
+        <item itemvalue="Application.UsingFutureCount" />
+        <item itemvalue="Application.CountMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-ac68fc9d2b05-intellij.indexing.shared.core-IU-263.7307.200" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9706c610-d609-4450-837e-823a57b861b3" name="Changes" comment="" />
+      <created>1794283330050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794283330050</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
