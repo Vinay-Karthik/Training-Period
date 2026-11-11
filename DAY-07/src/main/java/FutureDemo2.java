@@ -1,7 +1,7 @@
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CountDownLatch;
 
-public class CountMain {
+ class CountMain {
     public static void main(String[] args) throws InterruptedException {
         ConcurrentHashMap<Integer, Integer> counter =
                 new ConcurrentHashMap<>();

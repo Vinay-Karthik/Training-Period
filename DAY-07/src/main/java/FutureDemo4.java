@@ -1,6 +1,6 @@
 import java.util.concurrent.*;
 
-public class UsingFutureCount {
+public class FutureDemo4 {
 
     public static void main(String[] args) throws Exception {
 

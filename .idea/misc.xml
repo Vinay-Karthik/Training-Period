@@ -6,15 +6,19 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/day-08/pom.xml" />
+        <option value="$PROJECT_DIR$/DAY-06/pom.xml" />
+        <option value="$PROJECT_DIR$/DAY-07/pom.xml" />
+        <option value="$PROJECT_DIR$/DAY-3/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/DAY-3/pom.xml" />
         <option value="$PROJECT_DIR$/day-08/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="21" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
