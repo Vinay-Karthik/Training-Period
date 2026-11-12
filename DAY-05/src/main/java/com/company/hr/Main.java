@@ -10,9 +10,11 @@ import com.company.hr.model.EmploymentType;
 import com.company.hr.repository.EmployeeRepository;
 import com.company.hr.service.*;
 
+import java.util.Collection;
 import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class Main {
 

@@ -9,12 +9,22 @@
         <option value="$PROJECT_DIR$/DAY-06/pom.xml" />
         <option value="$PROJECT_DIR$/DAY-07/pom.xml" />
         <option value="$PROJECT_DIR$/DAY-3/pom.xml" />
+        <option value="$PROJECT_DIR$/DAY-03/pom.xml" />
+        <option value="$PROJECT_DIR$/DAY-05/pom.xml" />
+        <option value="$PROJECT_DIR$/DAY-07-2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/DAY-3/pom.xml" />
         <option value="$PROJECT_DIR$/day-08/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="PrintToLogpointModuleInspectionState">
+    <option name="disabledModuleNames">
+      <set>
+        <option value="DAY-07" />
       </set>
     </option>
   </component>
