@@ -4,20 +4,21 @@ import java.util.concurrent.Semaphore;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        Semaphore ping = new Semaphore(1);
-        Semaphore pong = new Semaphore(0);
+        Semaphore A = new Semaphore(1);
+        Semaphore B = new Semaphore(0);
+        Semaphore C=new Semaphore(0);
         int max=10;
 
         Thread thread1=new Thread(()->{
             for(int i=1;i<=max;i++){
                 try {
                     Thread.sleep(50);
-                    ping.acquire();
+                    A.acquire();
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
-                System.out.println("ping->"+Thread.currentThread().getName());
-                pong.release();
+                System.out.println("A ->"+Thread.currentThread().getName());
+                B.release();
             }
         });
 
@@ -25,19 +26,32 @@ public class Main {
             for(int i=0;i<max;i++){
                 try {
                     Thread.sleep(50);
-                    pong.acquire();
+                    B.acquire();
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
-                System.out.println("pong ->"+Thread.currentThread().getName());
-                ping.release();
+                System.out.println("B ->"+Thread.currentThread().getName());
+                C.release();
+            }
+        });
+
+        Thread thread3=new Thread(()->{
+            for(int i=0;i<max;i++){
+                try {
+                    Thread.sleep(50);
+                    C.acquire();
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+                System.out.println("C ->"+Thread.currentThread().getName());
+                A.release();
             }
         });
 
         thread1.start();
         thread2.start();
+        thread3.start();
 
-        thread1.join();
-        thread2.join();
+
     }
 }
