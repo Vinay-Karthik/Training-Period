@@ -14,22 +14,17 @@ public class TicketBooking {
                 System.out.println(
                         customerName + " is checking seats"
                 );
-
                 try {
                     Thread.sleep(100);
                 } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
                     return;
                 }
-
                 availableSeats--;
-
                 System.out.println(
-                        customerName + " booked successfully!"
-                );
+                        customerName + " booked successfully!");
 
             } else {
-
                 System.out.println(
                         customerName + " - No seats available"
                 );
@@ -41,7 +36,6 @@ public class TicketBooking {
 
     public int getAvailableSeats() {
         lock.lock();
-
         try {
             return availableSeats;
         } finally {
