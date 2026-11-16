@@ -1,5 +1,6 @@
+package StrategyPattern;
 
-public class Main {
+public class StrategyPatternMain {
     public static void main(String[] args) {
 
         PaymentService paymentService =
@@ -15,5 +16,11 @@ public class Main {
         // PayPal Payment
         paymentService.setPaymentStrategy(new PayPalPayment("user@gmail.com"));
         paymentService.checkout(3500);
+
+
+//        Open/Closed Principle:
+//        Add new payment methods without modifying existing payment implementations or the checkout logic.
+//        Dependency Inversion Principle:
+//        PaymentService depends on the PaymentStrategy abstraction rather than concrete payment classes.
     }
 }
