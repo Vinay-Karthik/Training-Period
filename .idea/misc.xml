@@ -32,6 +32,7 @@
     <option name="disabledModuleNames">
       <set>
         <option value="DAY-07" />
+        <option value="DAY-10" />
       </set>
     </option>
   </component>
