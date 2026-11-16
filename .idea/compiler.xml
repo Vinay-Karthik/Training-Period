@@ -9,7 +9,9 @@
         <module name="DAY-06" />
         <module name="DAY-03" />
         <module name="employee-management-system" />
+        <module name="DAY-10" />
         <module name="DAY-07-2" />
+        <module name="DAY-09-BankingSystem" />
         <module name="DAY-08-2" />
         <module name="DAY-09" />
         <module name="DAY-07" />
@@ -17,6 +19,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="BookMyShow_LLD" target="16" />
       <module name="day-08" target="1.8" />
       <module name="DAY-3" target="21" />
     </bytecodeTargetLevel>
