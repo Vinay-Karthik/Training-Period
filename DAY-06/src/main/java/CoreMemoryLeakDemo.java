@@ -13,7 +13,6 @@ public class CoreMemoryLeakDemo {
     // GC Root: Objects attached to this static collection cannot be garbage collected
     private static final List<LeakyObject> LEAK_CACHE = new ArrayList<>();
 
-    // Simulates a heavy domain object retaining ~2MB of memory
     static class LeakyObject {
         private final String id;
         private final byte[] payload;
