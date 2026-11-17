@@ -7,7 +7,7 @@ public class RegionalManager extends BankStaff {
     @Override
     public void approve(CustomerRequest request) {
         System.out.println("Regional Manager received: " + request);
-        if (request.getAmount() <= LIMIT) {
+        if (request.amount() <= LIMIT) {
             System.out.println("Approved by Regional Manager (limit: Rs.10,00,000)");
         } else {
             System.out.println("Amount exceeds regional manager limit. Forwarding...");
