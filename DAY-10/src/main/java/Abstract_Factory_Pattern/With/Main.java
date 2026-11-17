@@ -3,7 +3,7 @@ package Abstract_Factory_Pattern.With;
 import Abstract_Factory_Pattern.With.Factory.EmailNotificationFactory;
 import Abstract_Factory_Pattern.With.Factory.NotificationFactory;
 import Abstract_Factory_Pattern.With.Factory.SmsNotificationFactory;
-import Abstract_Factory_Pattern.With.serivce.BankNotificationService;
+import Abstract_Factory_Pattern.With.service.BankNotificationService;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package Facade_PAttern.service;
+package Facade_Pattern.service;
 
 
-import Facade_PAttern.model.Transaction;
+import Facade_Pattern.model.Transaction;
 
 public class ReceiptService {
 

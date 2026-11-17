@@ -1,4 +1,4 @@
-package Kiss_Principle.Without;
+package KISS_Principle.Without;
 
 class SalaryCalculator {
 

@@ -1,9 +1,9 @@
-package Facade_PAttern;
+package Facade_Pattern;
 
 
-import Facade_PAttern.facade.BankingFacade;
-import Facade_PAttern.model.Account;
-import Facade_PAttern.service.*;
+import Facade_Pattern.facade.BankingFacade;
+import Facade_Pattern.model.Account;
+import Facade_Pattern.service.*;
 
 public class Main {
 

@@ -1,12 +1,8 @@
-package Kiss_Principle.Without;
+package KISS_Principle.Without;
 
 class SalaryValidator {
 
     public boolean isValid(double salary) {
-        if (salary > 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return salary > 0;
     }
 }

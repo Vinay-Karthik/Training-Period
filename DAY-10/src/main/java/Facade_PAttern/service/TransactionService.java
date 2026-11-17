@@ -1,8 +1,8 @@
-package Facade_PAttern.service;
+package Facade_Pattern.service;
 
 
-import Facade_PAttern.model.Account;
-import Facade_PAttern.model.Transaction;
+import Facade_Pattern.model.Account;
+import Facade_Pattern.model.Transaction;
 
 import java.util.ArrayList;
 import java.util.List;

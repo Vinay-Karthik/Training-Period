@@ -1,4 +1,4 @@
-package Facade_PAttern.model;
+package Facade_Pattern.model;
 
 
 public class Account {

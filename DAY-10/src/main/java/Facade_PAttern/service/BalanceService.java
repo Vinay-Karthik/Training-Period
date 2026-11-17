@@ -1,7 +1,7 @@
-package Facade_PAttern.service;
+package Facade_Pattern.service;
 
 
-import Facade_PAttern.model.Account;
+import Facade_Pattern.model.Account;
 
 public class BalanceService {
 
