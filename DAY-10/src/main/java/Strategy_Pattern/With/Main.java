@@ -1,5 +1,16 @@
 package Strategy_Pattern.With;
 
+import Strategy_Pattern.With.Fly.JetFly;
+import Strategy_Pattern.With.Fly.NoFly;
+import Strategy_Pattern.With.Fly.NormalFly;
+import Strategy_Pattern.With.Robot.CompanionRobot;
+import Strategy_Pattern.With.Robot.Robot;
+import Strategy_Pattern.With.Robot.WorkerRobot;
+import Strategy_Pattern.With.talk.NoTalk;
+import Strategy_Pattern.With.talk.NormalTalk;
+import Strategy_Pattern.With.walk.NoWalk;
+import Strategy_Pattern.With.walk.NormalWalk;
+
 public class Main {
 
     public static void main(String[] args) {

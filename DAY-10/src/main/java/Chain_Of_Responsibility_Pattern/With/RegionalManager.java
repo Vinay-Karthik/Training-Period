@@ -1,11 +1,11 @@
 package Chain_Of_Responsibility_Pattern.With;
 
-public class RegionalManager extends Approver {
+public class RegionalManager extends BankStaff {
 
     private static final double LIMIT = 1000000;
 
     @Override
-    public void approve(Request request) {
+    public void approve(CustomerRequest request) {
         System.out.println("Regional Manager received: " + request);
         if (request.getAmount() <= LIMIT) {
             System.out.println("Approved by Regional Manager (limit: Rs.10,00,000)");

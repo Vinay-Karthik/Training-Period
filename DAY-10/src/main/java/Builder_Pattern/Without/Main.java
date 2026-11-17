@@ -32,21 +32,8 @@ public class Main {
                 true
         );
 
-        // Scenario 3: Current Account
-        BankAccount currentAccount = new BankAccount(
-                "ABC Technologies",
-                "CA10001",
-                "CURRENT",
-                new BigDecimal("100000"),
-                "Mumbai Branch",
-                "HDFC0005678",
-                "9876543210",
-                "accounts@abc.com",
-                true
-        );
 
         System.out.println(savingsAccount);
         System.out.println(premiumAccount);
-        System.out.println(currentAccount);
     }
 }

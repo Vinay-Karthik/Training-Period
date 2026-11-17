@@ -33,32 +33,7 @@ public class Main {
                 .internetBankingEnabled(true)
                 .build();
 
-        // Scenario 3: Current Account
-        BankAccount currentAccount = new BankAccount.Builder(
-                "ABC Technologies",
-                "CA10001",
-                "CURRENT",
-                new BigDecimal("100000"),
-                "Mumbai Branch",
-                "HDFC0005678")
-                .mobileNumber("9876543210")
-                .email("accounts@abc.com")
-                .internetBankingEnabled(true)
-                .build();
-
-        // Validation Check Example
-        try {
-            new BankAccount.Builder(
-                    "Invalid User",
-                    "SB99999",
-                    "FIXED_DEPOSIT", // Invalid account type
-                    new BigDecimal("-100"), // Invalid deposit
-                    "Delhi Branch",
-                    "BAD_IFSC"
-            ).build();
-        } catch (IllegalArgumentException ex) {
-            System.out.println("Validation caught expected error: " + ex.getMessage());
-        }
+//        BankAccount bankAccount2 = new BankAccount.Builder().email().
 
         System.out.println(savingsAccount);
 
