@@ -1,6 +1,6 @@
-package SOLID_PRINCIPLE.With.notification.Implementations;
+package SOLID_Principle.With.notification.Implementations;
 
-import SOLID_PRINCIPLE.With.notification.NotificationSender;
+import SOLID_Principle.With.notification.NotificationSender;
 
 public class SmsNotification implements NotificationSender {
     @Override

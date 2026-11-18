@@ -1,4 +1,4 @@
-package DRY_PRINCIPLE.Without;
+package DRY_Principle.Without;
 
 // WITHOUT DRY - the same tax/discount/final-amount logic is
 // copy-pasted for every customer. Change the tax rate? Edit 3 places.

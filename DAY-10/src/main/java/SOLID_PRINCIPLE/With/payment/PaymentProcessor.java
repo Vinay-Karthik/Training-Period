@@ -1,4 +1,4 @@
-package SOLID_PRINCIPLE.With.payment;
+package SOLID_Principle.With.payment;
 
 import java.math.BigDecimal;
 

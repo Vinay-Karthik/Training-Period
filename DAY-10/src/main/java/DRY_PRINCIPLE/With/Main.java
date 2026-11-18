@@ -1,4 +1,4 @@
-package DRY_PRINCIPLE.With;
+package DRY_Principle.With;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package SOLID_PRINCIPLE.With.model;
+package SOLID_Principle.With.model;
 
 import java.math.BigDecimal;
 

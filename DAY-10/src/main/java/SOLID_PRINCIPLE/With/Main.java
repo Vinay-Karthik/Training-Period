@@ -1,13 +1,13 @@
-package SOLID_PRINCIPLE.With;
+package SOLID_Principle.With;
 
-import SOLID_PRINCIPLE.With.notification.Implementations.EmailNotification;
-import SOLID_PRINCIPLE.With.payment.Implementations.CardPaymentProcessor;
-import SOLID_PRINCIPLE.With.payment.Implementations.GiftCardPayment;
-import SOLID_PRINCIPLE.With.payment.Implementations.NetBankingPaymentProcessor;
-import SOLID_PRINCIPLE.With.payment.Implementations.UpiPaymentProcessor;
-import SOLID_PRINCIPLE.With.repository.Implementations.InMemoryAccountRepository;
-import SOLID_PRINCIPLE.With.service.AccountService;
-import SOLID_PRINCIPLE.With.service.BankService;
+import SOLID_Principle.With.notification.Implementations.EmailNotification;
+import SOLID_Principle.With.payment.Implementations.CardPaymentProcessor;
+import SOLID_Principle.With.payment.Implementations.GiftCardPayment;
+import SOLID_Principle.With.payment.Implementations.NetBankingPaymentProcessor;
+import SOLID_Principle.With.payment.Implementations.UpiPaymentProcessor;
+import SOLID_Principle.With.repository.Implementations.InMemoryAccountRepository;
+import SOLID_Principle.With.service.AccountService;
+import SOLID_Principle.With.service.BankService;
 
 import java.math.BigDecimal;
 import java.util.List;

@@ -1,8 +1,8 @@
-package SOLID_PRINCIPLE.With.service;
+package SOLID_Principle.With.service;
 
-import SOLID_PRINCIPLE.With.model.Implementations.BankAccount;
-import SOLID_PRINCIPLE.With.model.Implementations.SalaryAccount;
-import SOLID_PRINCIPLE.With.model.Implementations.SavingsAccount;
+import SOLID_Principle.With.model.Implementations.BankAccount;
+import SOLID_Principle.With.model.Implementations.SalaryAccount;
+import SOLID_Principle.With.model.Implementations.SavingsAccount;
 
 import java.math.BigDecimal;
 

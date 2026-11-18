@@ -1,6 +1,6 @@
-package SOLID_PRINCIPLE.With.repository;
+package SOLID_Principle.With.repository;
 
-import SOLID_PRINCIPLE.With.model.Implementations.BankAccount;
+import SOLID_Principle.With.model.Implementations.BankAccount;
 
 import java.util.Map;
 import java.util.Optional;

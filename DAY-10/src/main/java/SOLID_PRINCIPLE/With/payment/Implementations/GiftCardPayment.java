@@ -1,6 +1,6 @@
-package SOLID_PRINCIPLE.With.payment.Implementations;
+package SOLID_Principle.With.payment.Implementations;
 
-import SOLID_PRINCIPLE.With.payment.PaymentProcessor;
+import SOLID_Principle.With.payment.PaymentProcessor;
 
 import java.math.BigDecimal;
 

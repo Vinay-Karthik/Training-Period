@@ -1,9 +1,9 @@
-package SOLID_PRINCIPLE.With.service;
+package SOLID_Principle.With.service;
 
-import SOLID_PRINCIPLE.With.model.Implementations.BankAccount;
-import SOLID_PRINCIPLE.With.notification.NotificationSender;
-import SOLID_PRINCIPLE.With.payment.PaymentProcessor;
-import SOLID_PRINCIPLE.With.repository.AccountRepository;
+import SOLID_Principle.With.model.Implementations.BankAccount;
+import SOLID_Principle.With.notification.NotificationSender;
+import SOLID_Principle.With.payment.PaymentProcessor;
+import SOLID_Principle.With.repository.AccountRepository;
 
 import java.math.BigDecimal;
 import java.util.HashMap;

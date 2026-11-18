@@ -1,7 +1,7 @@
-package SOLID_PRINCIPLE.With.model.Implementations;
+package SOLID_Principle.With.model.Implementations;
 
-import SOLID_PRINCIPLE.With.model.Depositable;
-import SOLID_PRINCIPLE.With.model.Withdrawable;
+import SOLID_Principle.With.model.Depositable;
+import SOLID_Principle.With.model.Withdrawable;
 
 import java.math.BigDecimal;
 

@@ -1,7 +1,7 @@
-package SOLID_PRINCIPLE.With.repository.Implementations;
+package SOLID_Principle.With.repository.Implementations;
 
-import SOLID_PRINCIPLE.With.model.Implementations.BankAccount;
-import SOLID_PRINCIPLE.With.repository.AccountRepository;
+import SOLID_Principle.With.model.Implementations.BankAccount;
+import SOLID_Principle.With.repository.AccountRepository;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package SOLID_PRINCIPLE.Without;
+package SOLID_Principle.Without;
 
 public class EmailNotification {
     public void sendEmail(String recipient, String message) {

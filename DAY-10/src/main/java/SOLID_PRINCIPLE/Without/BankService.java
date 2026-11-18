@@ -1,4 +1,4 @@
-package SOLID_PRINCIPLE.Without;
+package SOLID_Principle.Without;
 
 import java.math.BigDecimal;
 import java.util.HashMap;
